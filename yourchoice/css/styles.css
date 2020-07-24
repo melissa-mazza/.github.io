@@ -1,0 +1,103 @@
+body{
+	background-color:#c6d7de;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	padding: 3em;
+}
+
+#nav{
+	background-color:rgba(255, 255, 255, 0.5);
+	width:23%;
+	transform: translate(-5%, -0.1%);
+	margin: 0 auto;
+	text-align:center;
+	z-index:1;
+	font-size: 1.25em;
+	background: #2f8bf4;
+	border-radius:40px;
+}
+
+#nav p{
+	width:80%;
+	margin-left:15%;
+}
+
+#nav a{
+	width:16%;
+	text-align:center;
+}
+
+#nav a:link {
+	text-decoration:none;
+	color:#000077;
+}
+
+#nav a:visited {
+	text-decoration:none;
+	color:#000077;
+}
+
+#nav a:active {
+	text-decoration:underline;
+	color:#0066bb;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#0066bb;
+}
+
+#wrapper{
+	width:80%;
+	background-color:#d6e7ee;
+	/* the border-radius makes styles it to look like an iMessage blue bubble on an iPhone */
+	border-radius:40px;
+	margin:0 auto;
+	text-align:center; 
+}
+
+#lname{
+	background-color:#d6e7ee;
+	border-radius:40px;
+}
+
+p1{
+	text-align=right
+}
+
+h1{
+	font-size: 3em;
+	background: #2f8bf4;
+	padding: 10px 10px 0 10px;
+	border-radius: 40px;
+	margin:0;
+	display:inline-block;
+}
+
+h2{
+	font-size: 2em;
+	background: #2f8bf4;
+	padding: 10px 15px 0 0;
+	border-radius:40px;
+	margin:0;
+	display:inline-block;
+}
+
+p{
+	font-size: 1.5em;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#00284D;
+}
+
+/* this changes the way the response looks and can be used throughout your site if you want */
+.response {
+	color:#00284D;
+}
+
+/* this centers the photo on the last page (stopthespread.html) */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
